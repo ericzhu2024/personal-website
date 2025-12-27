@@ -27,16 +27,6 @@ const Hero = () => {
         </p>
       </div>
 
-{/* 
-      <div className="flex flex-wrap justify-center gap-4 mb-20">
-        <button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-full font-bold transition-all shadow-lg shadow-blue-500/20">
-          View My Work
-        </button>
-        <button className="border border-zinc-700 hover:bg-zinc-800 text-white px-8 py-3 rounded-full font-bold transition-all">
-          Contact Me
-        </button>
-      </div> */}
-
         <div className="flex flex-wrap justify-center gap-4 mb-20">
         <a 
             href="#projects" 
@@ -45,7 +35,6 @@ const Hero = () => {
             View My Work
         </a>
 
-        {/* 2. 跳转到 Footer/Contact 区域 */}
         <a 
             href="#footer" 
             className="border border-zinc-700 hover:bg-zinc-800 text-white px-8 py-3 rounded-full font-bold transition-all inline-block"
