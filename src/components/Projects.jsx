@@ -1,21 +1,31 @@
 import React from 'react';
-
+import Pintos from "../assets/cs162bean.png"
+import EvanBot from "../assets/evanbot.png"
+import RookieDB from "../assets/cs186.jpeg"
 const Projects = () => {
   const projects = [
     {
-      title: "Artist Marketplace Engine",
-      description: "A high-performance payment and discovery platform for creators. Integrated Stripe for automated payouts and Redis for sub-200ms geographic searches.",
-      tech: ["Node.js", "Stripe", "Redis", "AWS Lambda"],
-      link: "#", // GitHub link
-      image: "https://via.placeholder.com/600x400/111/3b82f6?text=Marketplace+Engine" 
+      title: "pintOS",
+      description:"Designed and implemented core operating system kernels in C, including process syscalls, user-level threads management and its synchronization primitives. Optimized file system performance by designing a 64-entry buffer cache, and engineered a custom Perl-based testing suite to verify cache hit rates and disk I/O reduction",
+      tech: ["C", "perl", "Operating System", "Cache", "GDB"],
+      link: "https://cs162.org/static/proj/pintos-docs/",
+      image: Pintos
+    },
+    {
+      title: "Secure File System",
+      description: "An interactive ocean conservation platform. Features a custom-built educational content delivery system and optimized PostgreSQL schemas for user tracking.",
+      tech: ["Go", "Cryptography", "Digital Signatures", " AES/RSA"],
+      link: "#",
+      image: EvanBot
     },
     {
       title: "EcoConnect Full-Stack",
       description: "An interactive ocean conservation platform. Features a custom-built educational content delivery system and optimized PostgreSQL schemas for user tracking.",
       tech: ["Django", "React", "PostgreSQL", "Tailwind"],
       link: "#",
-      image: "https://via.placeholder.com/600x400/111/3b82f6?text=EcoConnect"
+      image: RookieDB
     }
+
   ];
 
   return (
@@ -48,7 +58,7 @@ const Projects = () => {
                   <h3 className="text-2xl font-bold group-hover:text-blue-400 transition-colors">
                     {project.title}
                   </h3>
-                  <a href={project.link} className="text-zinc-500 hover:text-white transition-colors">
+                  <a href={project.link} target="_blank" rel="noopener noreferrer" className="text-zinc-500 hover:text-white transition-colors">
                     <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                     </svg>

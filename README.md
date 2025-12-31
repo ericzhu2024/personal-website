@@ -1,16 +1,29 @@
-# React + Vite
+# Software Engineer Portfolio | Eric
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, high-performance personal portfolio built with **React**, **Tailwind CSS**, and **Vite**. This project showcases my professional experience in full-stack development, scalable systems, and elegant UI design.
 
-Currently, two official plugins are available:
+[🚀 Live Demo](https://personal-website-ten-ivory.vercel.app/) ## 🚀 Technical Highlights
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* **Responsive Architecture**: Designed with a mobile-first approach using Tailwind's utility-first CSS.
+* **Modern UI/UX**: Features a sleek, dark-themed interface with centralized layouts to ensure a smooth reading flow.
+* **Performance Optimized**: Leveraging Vite for ultra-fast HMR and optimized production builds.
+* **Interactive Components**: Includes custom-built timeline sections for Education and Experience, and a dynamic Project grid.
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **Frontend**: React.js, Tailwind CSS
+* **Build Tool**: Vite
+* **Deployment**: Vercel
 
-## Expanding the ESLint configuration
+## 📂 Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```text
+src/
+├── assets/             # Images and static assets
+├── components/         # Reusable UI components (Hero, Exp, Projects, etc.)
+│   ├── Hero.jsx
+│   ├── Experience.jsx
+│   ├── Projects.jsx
+│   └── ...
+├── App.jsx             # Main application entry and layout
+└── main.jsx            # React DOM rendering
