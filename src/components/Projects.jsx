@@ -13,9 +13,9 @@ const Projects = () => {
     },
     {
       title: "Secure File System",
-      description: "An interactive ocean conservation platform. Features a custom-built educational content delivery system and optimized PostgreSQL schemas for user tracking.",
-      tech: ["Go", "Cryptography", "Digital Signatures", " AES/RSA"],
-      link: "#",
+      description: "Architected and implemented a secure, end-to-end encrypted file storage system in Go, designed to operate on untrusted servers. Leveraged cryptography to protect against tampering and unauthorized access",
+      tech: ["Go", "Cryptography", "Access Control", "Data Integrity", "Unit Testing"],
+      link: "https://fa25.cs161.org/proj2/",
       image: EvanBot
     },
     {
