@@ -2,8 +2,16 @@ import React from 'react';
 import Pintos from "../assets/cs162bean.png"
 import EvanBot from "../assets/evanbot.png"
 import RookieDB from "../assets/cs186.jpeg"
+import MapReduce from "../assets/mapreduce.webp"
 const Projects = () => {
   const projects = [
+    {
+      title: "MapReduce",
+      description:"Implemented a fault-tolerant distributed MapReduce system in Rust using asynchronous programming with Tokio. Built RPC-based coordinator-worker communication using gRPC for task scheduling, heartbeat monitoring, and automatic task reassignment on worker failures. Engineered resilient job execution with crash recovery and dynamic load balancing across distributed nodes",
+      tech: ["Rust", "Tokio", "Distributed System", "gRPC", "Fault Tolerance"],
+      link: "https://cs162.org/static/hw/hw-map-reduce-rs/",
+      image: MapReduce
+    },
     {
       title: "pintOS",
       description:"Designed and implemented core operating system kernels in C, including process syscalls, user-level threads management and its synchronization primitives. Optimized file system performance by designing a 64-entry buffer cache, and engineered a custom Perl-based testing suite to verify cache hit rates and disk I/O reduction",
@@ -19,10 +27,10 @@ const Projects = () => {
       image: EvanBot
     },
     {
-      title: "EcoConnect Full-Stack",
-      description: "An interactive ocean conservation platform. Features a custom-built educational content delivery system and optimized PostgreSQL schemas for user tracking.",
-      tech: ["Django", "React", "PostgreSQL", "Tailwind"],
-      link: "#",
+      title: "RookieDB",
+      description: "Built a fully-functional relational database management system from scratch in Java, implementing B+ tree indices and multiple join algorithms (hash, sort-merge, nested loop). Developed cost-based query optimization with selectivity estimation and achieved ACID compliance through multigranularity locking and ARIES recovery protocol",
+      tech: ["Java", "JUnit", "B+ Trees", "Query Optimization", "ARIES Recovery", "Cocurrency Control"],
+      link: "https://cs186.gitbook.io/project/",
       image: RookieDB
     }
 
