@@ -62,17 +62,17 @@ const Experience = () => {
                     <p className="text-blue-400 font-medium">@ {exp.company}</p>
                   </div>
                   
-                  <p className="text-zinc-400 text-sm leading-relaxed mb-4">
+                  {/* <p className="text-zinc-400 text-sm leading-relaxed mb-4">
                     {exp.description}
-                  </p>
-
+                  </p> */}
+{/* 
                   <div className="flex flex-wrap gap-2">
                     {exp.skills.map((s, i) => (
                       <span key={i} className="text-[10px] px-2 py-0.5 bg-zinc-800 text-zinc-400 rounded border border-zinc-700 font-mono">
                         {s}
                       </span>
                     ))}
-                  </div>
+                  </div> */}
                 </div>
 
                 <div className={`hidden md:block absolute top-1/2 -translate-y-1/2 w-4 h-px bg-zinc-800 

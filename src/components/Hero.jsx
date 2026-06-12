@@ -2,7 +2,8 @@ import React from 'react'
 import photo2 from '../assets/photo2.JPG'
 import photo3 from '../assets/photo3.JPG'
 import photo4 from '../assets/photo4.JPG'
-
+import photo5 from '../assets/photo5.JPG'
+import photo6 from '../assets/photo6.JPG'
 
 
 const Hero = () => {
@@ -44,9 +45,9 @@ const Hero = () => {
         </div>
 
         <div className="grid grid-cols-2 grid-rows-2 gap-4 h-150 md:h-187.5 w-full max-w-4xl mx-auto px-4">
-            <img src={photo2} className="w-full h-full object-cover rounded-3xl col-span-1 row-span-2 border border-zinc-800 shadow-2xl transition-transform hover:scale-[1.02] duration-500" alt="Main" />
-            <img src={photo3} className="w-full h-full object-cover rounded-3xl border border-zinc-800 shadow-2xl transition-transform hover:scale-[1.02] duration-500" alt="Small 1" />
-            <img src={photo4} className="w-full h-full object-cover rounded-3xl border border-zinc-800 shadow-2xl transition-transform hover:scale-[1.02] duration-500" alt="Small 2" />
+            <img src={photo4} className="w-full h-full object-cover rounded-3xl col-span-1 row-span-2 border border-zinc-800 shadow-2xl transition-transform hover:scale-[1.02] duration-500" alt="Main" />
+            <img src={photo5} className="w-full h-full object-cover rounded-3xl border border-zinc-800 shadow-2xl transition-transform hover:scale-[1.02] duration-500" alt="Small 1" />
+            <img src={photo6} className="w-full h-full object-cover rounded-3xl border border-zinc-800 shadow-2xl transition-transform hover:scale-[1.02] duration-500" alt="Small 2" />
         </div>
     </section>
   );

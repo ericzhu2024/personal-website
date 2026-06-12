@@ -5,7 +5,7 @@ const Education = () => {
   const edu = {
     school: "University of California, Berkeley", 
     degree: "Bachelor of Science in Electrical Engneering and Computer Science", 
-    date: "Graduated in Dec 2025",
+    date: "Graduated in May 2026",
     location: "Berkeley, CA",
     courses: [
         "CS61A - The Structure and Interpretation of Computer Programs",
